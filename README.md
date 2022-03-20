@@ -2,7 +2,10 @@
 
 POC of a pubsub app using Kafka. It follows the [confluent examples](https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/clojure.html) 
 to define a [consumer](https://github.com/confluentinc/examples/blob/7.0.1-post/clients/cloud/clojure/src/io/confluent/examples/clients/clj/consumer.clj) 
-and a [producer](https://github.com/confluentinc/examples/blob/7.0.1-post/clients/cloud/clojure/src/io/confluent/examples/clients/clj/producer.clj).
+and a [producer](https://github.com/confluentinc/examples/blob/7.0.1-post/clients/cloud/clojure/src/io/confluent/examples/clients/clj/producer.clj)
+at the `consumer` and `producer` namespaces respectively.
+
+There is another approach available at the `clients` and `core` namespaces that follows the same approach used in [BOB 2021 - Event in, events out?](https://github.com/gklijs/bob2021).
 
 ## About the project
 
@@ -26,6 +29,9 @@ lein consumer java.config <topic name>
 
 ;; To run the producer
 lein producer java.config <topic name>
+
+;; To run the another approach
+lein run
 ```
 
 The producer will publish 10 messages for test purpose.

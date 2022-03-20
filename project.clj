@@ -5,6 +5,7 @@
   :dependencies [[org.clojure/clojure "1.10.3"]
                  [org.clojure/data.json "2.4.0"]
                  [org.apache.kafka/kafka-clients "3.1.0"]]
+  :main ^:skip-aot lucasanjosmoraes.core
   :plugins [[lein-ancient "1.0.0-RC3"]]
   :aliases {"consumer" ["run" "-m" "lucasanjosmoraes.consumer"]
             "producer" ["run" "-m" "lucasanjosmoraes.producer"]})

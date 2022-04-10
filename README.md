@@ -4,6 +4,17 @@ POC of a pubsub app using Kafka. It follows the [confluent examples](https://doc
 to define a [consumer](https://github.com/confluentinc/examples/blob/7.0.1-post/clients/cloud/clojure/src/io/confluent/examples/clients/clj/consumer.clj) 
 and a [producer](https://github.com/confluentinc/examples/blob/7.0.1-post/clients/cloud/clojure/src/io/confluent/examples/clients/clj/producer.clj).
 
+## About the project
+
+- Example of an integration with Kafka using Java Interop;
+- Examples of executables with aliases;
+- Example of application execution with configurations defined on a `.config` file;
+- Example of topic creation when needed;
+- [Branch with a namespace that coordinates consumer and producer, including an example of logback configuration file](https://github.com/lucasanjosmoraes/kafka-pubsub-poc/tree/feature/perks);
+- [Branch with a great separation of components by responsibility, an example of connection with a Kafka with SSL activated,
+examples of: consuming all messages from a topic, consuming messages from the consumer execution and consuming messages
+from a specific partition](https://github.com/lucasanjosmoraes/kafka-pubsub-poc/tree/feature/bob2021).
+
 ## Usage
 
 ### From command line

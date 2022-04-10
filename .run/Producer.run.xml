@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Producer" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
-    <module name="kafka-pusub-poc" />
+    <module name="kafka-pubsub-poc" />
     <setting name="path" value="" />
     <setting name="namespace" value="lucasanjosmoraes.producer" />
     <setting name="execution" value="INTELLIJ" />

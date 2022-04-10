@@ -1,4 +1,4 @@
-# kafka-pusub-poc
+# kafka-pubsub-poc
 
 POC of a pubsub app using Kafka. It follows the [confluent examples](https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/clojure.html) 
 to define a [consumer](https://github.com/confluentinc/examples/blob/7.0.1-post/clients/cloud/clojure/src/io/confluent/examples/clients/clj/consumer.clj) 
